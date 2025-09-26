@@ -28,7 +28,8 @@ DISPUTE\_DETECTION/
 │   ├── classified\_disputes.csv \# Output of Task 1  
 │   └── resolutions.csv         \# Output of Task 2  
 │  
-├── main.py                     \# Main script to run the entire pipeline  
+├── main.py                      \# Main script to run the entire pipeline
+├── visualization.ipynb          \# chart visualization   
 └── requirements.txt            \# Python dependencies
 
 ## **📋 Prerequisites**
@@ -69,6 +70,10 @@ After training the model, you can run the entire inference pipeline with a singl
 1. **Classify** new disputes from dataset/disputes.csv.  
 2. **Suggest resolutions** for the classified disputes.  
 3. **Launch the interactive AI Assistant CLI** for you to ask questions.
+
+### **Step 3: Visualize and Analyze Results**
+
+After running the main pipeline, you can see the Jupyter Notebook to see and create interactive visualizations of the results.
 
 To run the pipeline:
 

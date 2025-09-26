@@ -1,0 +1,21 @@
+dispute_id,suggested_action,justification
+D001,Auto-refund,High-confidence prediction validated by transaction data; amount is within auto-approval limit.
+D002,Escalate to bank,NEFT transactions require inter-bank communication and have longer settlement cycles.
+D003,Auto-refund,High-confidence prediction of a failed but debited transaction; amount is within auto-approval limit.
+D004,Mark as potential fraud,"Prediction indicates a high risk of fraud, requiring immediate security review."
+D005,Manual review,Category 'REFUND_PENDING' requires an agent to check the merchant's refund status.
+D006,Auto-refund,High-confidence prediction validated by transaction data; amount is within auto-approval limit.
+D007,Auto-refund,High-confidence prediction of a failed but debited transaction; amount is within auto-approval limit.
+D008,Escalate to bank,NEFT transactions require inter-bank communication and have longer settlement cycles.
+D009,Ask for more info,The system could not confidently determine the issue from the provided description. More details are needed.
+D010,Manual review,Dispute requires agent intervention.
+D011,Auto-refund,High-confidence prediction validated by transaction data; amount is within auto-approval limit.
+D012,Ask for more info,The system could not confidently determine the issue from the provided description. More details are needed.
+D013,Manual review,Transaction amount exceeds the auto-approval limit.
+D014,Escalate to bank,NEFT transactions require inter-bank communication and have longer settlement cycles.
+D015,Auto-refund,High-confidence prediction of a failed but debited transaction; amount is within auto-approval limit.
+D016,Mark as potential fraud,"Prediction indicates a high risk of fraud, requiring immediate security review."
+D017,Manual review,Category 'REFUND_PENDING' requires an agent to check the merchant's refund status.
+D018,Auto-refund,High-confidence prediction validated by transaction data; amount is within auto-approval limit.
+D019,Escalate to bank,NEFT transactions require inter-bank communication and have longer settlement cycles.
+D020,Auto-refund,High-confidence prediction validated by transaction data; amount is within auto-approval limit.

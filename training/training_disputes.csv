@@ -1,0 +1,968 @@
+dispute_id,description,is_verified_duplicate,is_verified_failed,contains_fraud_keyword,contains_refund_keyword,contains_duplicate_keyword,true_category
+D1049,"Was charged again for the same order, looks like a duplicate payment. I have the SMS and bank statement.",1,0,0,0,1,DUPLICATE_CHARGE
+D1754,emi card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1789,Chargebacckr equested as I on't rrecognize this card ttxn. I contacted merchant but no response.,0,0,0,0,0,OTHERS
+D1733,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1403,failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1094,"Double charge: duplicated charge for ₹2,300.00 — i only did the payment once. Transaction IDs: 656837",1,0,0,0,1,DUPLICATE_CHARGE
+D1120,I got charged twice for the same taxi of ₹1200 today.,1,0,0,0,1,DUPLICATE_CHARGE
+D1768,Chargeback requested as I don't recognize this card txn. I contacted merchant but no response.,0,0,0,0,0,OTHERS
+D1287,"My payment failed on gateway but amount got deducted, pls reverse. I contacted merchant but no response.",0,1,0,0,0,FAILED_TRANSACTION
+D1114,Double charge: Two debits for one purchase at pharmacy minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1599,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1300,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1090,"I see a duplicate transaction of ₹750 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1249,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1284,paymennt failed buut bankk debited me; transaction statu is faiil. I contacted merchant but no response. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1718,"Refund waiting, merchant says refunded but not in my bank. pls help",0,0,0,1,0,REFUND_PENDING
+D1087,Double charge: two debits for one purchase at subscription service minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1271,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1556,unauthorized transaction on my card — suspicious charge i didn't do.,0,0,1,0,0,FRAUD
+D1504,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised. pls help",0,0,1,0,0,FRAUD
+D1319,UPI failed but I got debited. Status shows FAILED. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1669,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1681,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1443,i did not make this payment. this is fraud.,0,0,1,0,0,FRAUD
+D1432,NEFT failed but amount not reversed yet. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1410,Faield transation butm oneyy taaken out of m savings accconut.,0,0,0,0,0,FAILED_TRANSACTION
+D1728,Chargeback requested as I don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1333,NEFT failed but amount not reversed yet. Transaction IDs: 843793,0,1,0,0,0,FAILED_TRANSACTION
+D1632,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1133,"I see a duplicate transaction of ₹99 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1219,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1047,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1131,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1328,UPI failed but I got debited. Status shows FAILED. pls help refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1329,neft failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1008,I got charged twice for the same online marketplace of ₹1200 on 10/09/2025. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1501,Unauthorised transaction: I ddidnn't authorize hiis UPI transfer. This is definietly fraaud.,0,0,1,0,0,FRAUD
+D1675,"Refund pending: refuund nt received,i 've been waitnig fo adys",0,0,0,1,0,REFUND_PENDING
+D1531,Unauthorized transaction on my card — suspicious charge I didn't do. I have the SMS and bank statement.,0,0,1,0,0,FRAUD
+D1007,Double charge: Two debits for one purchase at restaurant minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1602,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1373,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1398,failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1459,Unauthorized transaction on my card — suspicious charge I didn't do. pls help I have the SMS and bank statement.,0,0,1,0,0,FRAUD
+D1473,"Suspicious txn on my account, please investigate — not me. pls help Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1633,"refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1799,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1083,charged twice. 2 entries for same txn id at pharmacy. pls help,0,0,0,0,1,DUPLICATE_CHARGE
+D1771,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1612,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1650,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1211,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1370,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1369,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1653,"Refund waiting, merchant says refunded but not in my bank. I have screenshots if needed.",0,0,0,1,0,REFUND_PENDING
+D1029,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1355,Payment failed but bank debited me; transaction status is FAIL. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1796,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1118,Double charge: Two debits for one purchase at utility bill minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1395,neft failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1024,Double charge: two debits for one purchase at utility bill minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1706,Refund pending for a week after I cancelled the order. pls help,0,0,0,1,0,REFUND_PENDING
+D1760,payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1520,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1665,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1064,"double charge on card for ₹3,500 at ticketing site. please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1572,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1089,"I see a duplicate transaction of ₹1200 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1207,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1427,Payment failed but bank debited me; transaction status is FAIL. pls help I contacted merchant but no response.,0,1,0,0,0,FAILED_TRANSACTION
+D1275,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1028,charged twice. 2 entries for same txn id at mobile recharge.,1,0,0,0,1,DUPLICATE_CHARGE
+D1239,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1109,Double charge: Two debits for one purchase at mobile recharge minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1594,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1324,Transaction shows FAILED but money was debited from my account. pls help refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1097,"I got charged twice for the same restaurant of ₹3,500 this morning. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1106,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1312,Failed transaction bt mnoey taaen out ofm y svaniig saccount.,0,0,0,0,0,FAILED_TRANSACTION
+D1649,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1483,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1294,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1345,NEFT failed but amount not reversed yet. pls help I have screenshots if needed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1209,Transaction shows FAILED but money was debited from my account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1379,"My payment failed on gateway but amount got deducted, pls reverse. pls help refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1454,"Unauthorised transaction: ot my transaction. Sommeone used mmy card, it's unauhorisedd.",0,0,1,0,0,FRAUD
+D1597,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1344,upi failed but i got debited. status shows failed.,0,1,0,0,0,FAILED_TRANSACTION
+D1716,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1236,Failed transaction but money taken out of my savings account. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1135,"i see a duplicate transaction of ₹3,500 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1003,Double charge: duplicated charge for ₹2500 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1692,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1033,i got charged twice for the same electronics shop of ₹750 two days ago.,1,0,0,0,1,DUPLICATE_CHARGE
+D1598,"Refund waiting, merchant says refunded but not in my bank. Transaction IDs: 648668",0,0,0,1,0,REFUND_PENDING
+D1664,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1625,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1218,NEFT failed but amount not reversed yet. I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1103,duplicated charge for ₹499 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1431,"my payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1337,UPI failed but I got debited. Status shows FAILED. I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1445,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1244,neft failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1036,Double charge: two debist forrone purchase at ubsciptionn service minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1350,Payment went through at my end but merchant shows failed—I've been charged.,0,0,0,0,0,FAILED_TRANSACTION
+D1797,my neft credited to wrong beneficiary per my statement. I contacted merchant but no response.,0,0,0,0,0,OTHERS
+D1570,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1234,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1710,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1436,"UPI failed but I got debited. Status shows FAILED. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1288,Payment failed but bank debited me; transaction status is FAIL. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1569,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1723,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1126,"was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1322,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1757,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1354,payment went through at my end but merchant shows failed—i've been charged. I contacted merchant but no response.,0,1,0,0,0,FAILED_TRANSACTION
+D1629,Still waiitnig for reefn dafter canceled transacito.n pls help,0,0,0,1,0,REFUND_PENDING
+D1715,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1015,Double charge: duplicated charge for ₹499 — I only did the payment once. I have screenshots if needed.,1,0,0,0,1,DUPLICATE_CHARGE
+D1023,Double charge: Two debits for one purchase at subscription service minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1035,"I see duplicate transaction of 99 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1338,"Failed transaction but money taken out of my savings account. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1098,Double charge: duplicated charge for ₹1200 — I only did the payment once. pls help,0,0,0,0,1,DUPLICATE_CHARGE
+D1697,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1309,upi failed but i got debited. status shows failed. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1487,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1783,Payment unclear — says processed but merchant not received. pls help,0,0,0,1,0,OTHERS
+D1776,"Payment stuck in pending, not sure if merchant got it. pls help I have the SMS and bank statement.",0,0,0,0,0,OTHERS
+D1644,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1032,Double charge: duplicated charge for ₹499 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1040,I got charged twice for th esame mobile rechare fo ₹99 yestterday.,1,0,0,0,1,DUPLICATE_CHARGE
+D1182,I got charged twice for the same clothing store of ₹1200 today. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1305,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1331,UPI failed but I got debited. Status shows FAILED. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1165,charged twice. 2 entries for same txn id at clothing store.,1,0,0,0,1,DUPLICATE_CHARGE
+D1580,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1268,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1290,Failed transaction but money taken out of my savings account. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1571,"Refund for canceled order not processed yet. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1308,"My payment failed on gateway but amount got deducted, pls reverse. pls help refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1479,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1178,"was charged again for the same order, looks like a duplicate payment. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1196,Double charge on card for ₹450 at clothing store. Please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1227,payment failed but bank debited me; transaction status is fail.,0,1,0,0,0,FAILED_TRANSACTION
+D1686,still waiting for refund after canceled transaction. pls help,0,0,0,1,0,REFUND_PENDING
+D1067,I got charged twice for the same electronics shop of ₹750 last night.,1,0,0,0,1,DUPLICATE_CHARGE
+D1648,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1298,UPI failed but I got debited. Status shows FAILED. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1006,"was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1273,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1575,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1514,I didn't authorize this UPI transfer. This is definitely fraud. pls help Transaction IDs: 127521,0,0,1,0,0,FRAUD
+D1646,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1437,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1634,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1559,Unauthorized trannsaction on my card — ssuppiious charge Id idn' do. pls help,0,0,1,0,0,FRAUD
+D1179,double charge on card for ₹450 at electronics shop. please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1546,"This looks like fraud, I didn't authorize this debit. pls help",0,0,1,0,0,FRAUD
+D1282,"my payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1635,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1100,I got charged twice for the same subscription service of ₹750 two days ago.,1,0,0,0,1,DUPLICATE_CHARGE
+D1326,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1455,"This looks like fraud, I didn't authorize this debit.",0,0,1,0,0,FRAUD
+D1074,"Double charge: I se ea duplicatet ransacton o ₹450 for same merchant, psl help. Transaction IDs: 844031",1,0,0,0,1,DUPLICATE_CHARGE
+D1142,"I see a duplicate trannsaction of ₹499 for same merchhant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1375,UPI failed but I goot deitted. Satuus shows FAILED. I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1393,upi failed but i got debited. status shows failed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1197,"I got charged twice for the same electronics shop of ₹3,500 a week ago.",1,0,0,0,1,DUPLICATE_CHARGE
+D1518,"this looks like fraud, i didn't authorize this debit.",0,0,1,0,0,FRAUD
+D1014,"Double charge: I ee a duupplicate transacitono ₹499 for same merchhan,t pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1388,UPI failed but I got debited. Status shows FAILED. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1465,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1628,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1317,Payment failed but bank debited me; transaction status is FAIL. Transaction IDs: 347085,0,1,0,0,0,FAILED_TRANSACTION
+D1281,Failed transaction: NEFT faiiled but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1695,refund hasn't come back to my account after the seller cancelled. pls help,0,0,0,1,0,REFUND_PENDING
+D1521,Unauthorised transaction: unauthoorized tarnsaction on my card — ssuuppicious charge ididn'td o.,0,0,1,0,0,FRAUD
+D1524,"Unauthorized transaction on my card — suspicious charge I didn't do. pls help Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1548,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1246,payment went through at my end but merchant shows failed—i've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1266,payment went through at my end but merchant shows failed—i've been charged. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1780,Suspicious txn: my neft credited to wrong beneficiary per my statement.,0,0,1,0,0,OTHERS
+D1111,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1470,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1195,"Double charge: duplicated charge for ₹2,300.00 — I only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1586,Refund pending for a week after I cancelled the order. pls help,0,0,0,1,0,REFUND_PENDING
+D1467,i didn't authorize this upi transfer. this is definitely fraud.,0,0,1,0,0,FRAUD
+D1057,Double charge: duplicated charge for ₹59.99 — I only did the payment once. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1346,payment failed but bank debited me; transaction status is fail. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1540,"suspicious txn on my account, please investigate — not me. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1549,unauthorized transaction on my card — suspicious charge i didn't do.,0,0,1,0,0,FRAUD
+D1260,payment failed but bank debited me; transaction status is fail.,0,1,0,0,0,FAILED_TRANSACTION
+D1535,"This looks like fraud, I didn't authorize this debit. pls help",0,0,1,0,0,FRAUD
+D1102,"Double charge: duplicated charge for ₹2,300.00 — I only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1066,"was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1149,"Was charged again for the same order, looks like a duplicate payment. I have screenshots if needed.",1,0,0,0,1,DUPLICATE_CHARGE
+D1578,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1708,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1010,chargged twice. 2 etnries for same txn id a ttuility bill. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1167,"Double charge: duplicated charge for ₹2,300.00 — I only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1321,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1528,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1511,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1058,Double charge: duplicated charge for ₹499 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1229,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1529,i didn't authorize this upi transfer. this is definitely fraud.,0,0,1,0,0,FRAUD
+D1060,double charge on card for ₹2500 at taxi. please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1485,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1673,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1652,refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1107,"Double charge on card for ₹1,999 at petrol pump. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1280,transaction shows failed but money was debited from my account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1122,i got charged twice for the same taxi of ₹450 a week ago.,1,0,0,0,1,DUPLICATE_CHARGE
+D1372,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1439,"Payment failed but bank debited me; transaction status is FAIL. Please reverse asap, this is urgent. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1456,"Suspicious txn on my account, please investigate — not me. I contacted merchant but no response.",0,0,1,0,0,FRAUD
+D1551,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1105,double chrae oon ccard fo ₹99 at taxi.p lease refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1709,Refund pending: Rfeund pending for a week after I cancelledt h orrderr.,0,0,0,1,0,REFUND_PENDING
+D1430,payment failed but bank debited me; transaction status is fail. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1073,Double charge: duplicated charge for ₹750 — I only did the payment once.,0,0,0,0,1,DUPLICATE_CHARGE
+D1509,I didn't authorize this UPI transfer. This is definitely fraud. I have the SMS and bank statement.,0,0,1,0,0,FRAUD
+D1289,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1194,charged twice. 2 entries for same txn id at grocery store. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1138,"I see a duplicate transaction of ₹2500 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1075,Double charge on card for ₹2500 at online marketplace. Please refund. pls help,1,0,0,1,1,DUPLICATE_CHARGE
+D1141,"I see a duplicate transaction of ₹59.99 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1241,Payment failed but bank debited me; transaction status is FAIL. pls help refund not yet received.,0,0,0,1,0,FAILED_TRANSACTION
+D1360,NEFT failed but amount not reversed yet. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1523,I did not make this payment. This is fraud. pls help,0,0,1,0,0,FRAUD
+D1011,Duplicate charge: two debits for one purchase at petrol pump minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1469,"Unauthorised transaction: ntoo my ransaction. someone used ym card, it's unauthorissedpl shellp",0,0,1,0,0,FRAUD
+D1399,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1198,"I see a duplicate transaction of ₹750 for same merchant, pls help. I have the SMS and bank statement.",1,0,0,0,1,DUPLICATE_CHARGE
+D1112,"I got charged twice for the same taxi of ₹3,500 a week ago. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1476,Unauthorized transaction on my card — suspicious charge I didn't do. I have screenshots if needed.,0,0,1,0,0,FRAUD
+D1240,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1573,Still waiting for refund after canceled transaction. Transaction IDs: 398624,0,0,0,1,0,REFUND_PENDING
+D1577,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1152,"I got charged twice for the same ticketing site of ₹2,300.00 two days ago.",1,0,0,0,1,DUPLICATE_CHARGE
+D1245,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1228,Payment went through at my end but merchant shows failed—I've been charged. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1101,"was charged again for the same order, looks like a duplicate payment. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1701,Refund pending for a week after I cancelled the order. I have the SMS and bank statement.,0,0,0,1,0,REFUND_PENDING
+D1367,Payment went through at my end but merchant shows failed—I've been charged. Transaction IDs: 356092,0,1,0,0,0,FAILED_TRANSACTION
+D1741,"Payment unclear — says processed but merchant not received. Please reverse asap, this is urgent.",0,0,0,1,0,OTHERS
+D1536,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1189,double charge on card for ₹99 at pharmacy. please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1413,UI failed b I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1505,I did'nt auhtorizee this UPI trnasfer. Thiis is definiteyl fraud.,0,0,1,0,0,FRAUD
+D1175,charged twice. 2 entries for same txn id at utility bill.,1,0,0,0,1,DUPLICATE_CHARGE
+D1086,"Double charge: I was debied two tiems, samme txn, ame amount. chargeed twicee!",0,0,0,0,1,DUPLICATE_CHARGE
+D1637,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1490,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1269,payment went through at my end but merchant shows failed—i've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1765,My NEFT credited to wrong beneficiary per my statement.,0,0,0,0,0,OTHERS
+D1507,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1745,Payment unclear — says processed but merchant not received. pls help,0,0,0,1,0,OTHERS
+D1677,Refund pending for a week after I cancelled the order. pls help,0,0,0,1,0,REFUND_PENDING
+D1539,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1755,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1714,"refund hasn't come back to my account after the seller cancelled. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1185,Double charge: two debits for one purchase at utility bill minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1416,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1386,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1214,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1773,Suspicious txn: my neft credited to wrong beneficiary per my statement.,0,0,1,0,0,OTHERS
+D1590,still waiting for refund after canceled transaction. I have the SMS and bank statement.,0,0,0,1,0,REFUND_PENDING
+D1143,Double charge: duplictaed charge fro ₹7500 — I only did the ppyamnet onc.,1,0,0,0,1,DUPLICATE_CHARGE
+D1254,Payment went through at my end but merchant shows failed—I've been charged.,0,0,0,0,0,FAILED_TRANSACTION
+D1263,Failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1563,Still waiting for refundd ftte canceled transatoin.,0,0,0,1,0,REFUND_PENDING
+D1072,charged twice. 2 entries for same txn id at taxi.,1,0,0,0,1,DUPLICATE_CHARGE
+D1711,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1325,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1705,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1441,Unauthorised transaction: I didn't authooze this UPI transfer. This is deefinitelyfradu.,0,0,1,0,0,FRAUD
+D1493,"Suspicious txn on my accoount, please investigte — not me. Transaction IDs: 438746",0,0,1,0,0,FRAUD
+D1568,Refund hasn't come back to my account after the seller cancelled. pls help,0,0,0,1,0,REFUND_PENDING
+D1129,"Double charge on card for ₹2,300.00 at utility bill. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1390,upi failed but i got debited. stattus showsfailed. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1004,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1747,payment unclear — says processed but merchant not received. pls help,0,0,0,1,0,OTHERS
+D1787,"Payment stuck in pending, not sure if merchant got it. pls help Please reverse asap, this is urgent.",0,0,0,0,0,OTHERS
+D1217,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1336,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1401,payment went through at my end but merchant shows failed—i've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1231,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1689,"refund not received, i've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1642,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1712,Refund pending: Refnd pending ffor a weeek affter I cncaalleed th order.,0,0,0,1,0,REFUND_PENDING
+D1793,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1552,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1679,"Refund pending for a week after I cancelled the order. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1659,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1798,chargeback erqueste das i don'tr ecognzie thiis car dtxn.,0,0,0,0,0,OTHERS
+D1585,Refund pending for a week after I cancelled the order. pls help,0,0,0,1,0,REFUND_PENDING
+D1366,neft failed but amount not reversed yet. pls help refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1177,"Double charge on card for ₹1,999 at restaurant. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1380,Failed transaction: Paaymentwent thruogh att myend but merchant shows faiiled—I'vee been chaged.,0,1,0,0,0,FAILED_TRANSACTION
+D1417,NEFT failed but amount not reversed yet.,0,0,0,0,0,FAILED_TRANSACTION
+D1362,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1187,Double charge: duplicated charge for ₹59.99 — I only did the payment once. I have the SMS and bank statement.,1,0,0,0,1,DUPLICATE_CHARGE
+D1735,payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1347,"NEFT failed but amount not reversed yet. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1349,neft failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1155,Double charge on card for ₹499 at utility bill. Please refund. pls help,1,0,0,1,1,DUPLICATE_CHARGE
+D1327,Payment failed but bank debited me; transaction status is FAIL. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1550,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1063,charged twice. 2 entries for same txn id at restaurant.,1,0,0,0,1,DUPLICATE_CHARGE
+D1668,"Refund not received, I've been waiting for days. pls help",0,0,0,1,0,REFUND_PENDING
+D1508,unauthorized transaction on my card — suspicious charge i didn't do.,0,0,1,0,0,FRAUD
+D1579,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1123,charged twice. 2 entries for same txn id at restaurant.,1,0,0,0,1,DUPLICATE_CHARGE
+D1297,Payment failed but bank deibetd me; transaction sttus is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1164,"I see a duplicate transaction of ₹2,300.00 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1639,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1145,"Duplicate charge: I was dbeite dtwo times, ame txn, s amount. carged twcie! plsh elp",1,0,0,0,1,DUPLICATE_CHARGE
+D1676,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1452,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1065,"I was debited two times, same txn, same amount. charged twice! pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1230,payment failed but bank debited me; trrasacttin stats is fial.,0,1,0,0,0,FAILED_TRANSACTION
+D1790,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1496,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1566,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1759,"Payment stuck in pending, not sure if merchant got it. I have screenshots if needed.",0,0,0,0,0,OTHERS
+D1031,charged twice. 2 entries for same txn id at petrol pump. I contacted merchant but no response.,1,0,0,0,1,DUPLICATE_CHARGE
+D1041,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1019,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1606,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1666,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1365,Payment went through at my end utmercant shows ailed—'ve been charged.,0,0,0,0,0,FAILED_TRANSACTION
+D1124,"Double charge on card for ₹3,500 at utility bill. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1108,Double charge: two debits for one purchase at grocery store minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1425,payment failed but bank debited me; transaction status is fail.,0,1,0,0,0,FAILED_TRANSACTION
+D1389,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1738,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1468,"Ths lookk slike fraud,I didn't aauthorize this debit.",0,0,1,0,0,FRAUD
+D1206,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1515,"This looks like fraud, I didn't authorize this debit.",0,0,1,0,0,FRAUD
+D1638,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1720,"Refund no receiveed, I've be witinng fr days. pls help",0,0,0,1,0,REFUND_PENDING
+D1503,"SSuspciosutxn on my account, pplease invstiggate — not me. I have screenshots if needed.",0,0,1,0,0,FRAUD
+D1721,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1232,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1795,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1462,I didn't authorize this UPI transfer. This is definitely fraud. I have the SMS and bank statement.,0,0,1,0,0,FRAUD
+D1341,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1174,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1553,I didn't autohriize this UPIt ransfer.T his is defintey fraud.,0,0,1,0,0,FRAUD
+D1484,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1368,"transaction shows failed but money was debited from my account. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1353,upi failed but i got debited. status shows failed. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1486,"hTis looks like fraud,I didn't uathorize this debit. pls hepl",0,0,1,0,0,FRAUD
+D1604,"Refund waiting, merchant says refunded but not in my bank. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1690,"Refund waiting, merchant says refunded but not in my bank. pls help",0,0,0,1,0,REFUND_PENDING
+D1704,Refund for canceled order not processed yet. pls help,0,0,0,1,0,REFUND_PENDING
+D1264,pyament wnt througha ye nd but merchant shows failed—i've bee charged .pls hhelp,0,1,0,0,0,FAILED_TRANSACTION
+D1608,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1330,upi failed but i got debited. status shows failed.,0,1,0,0,0,FAILED_TRANSACTION
+D1081,I got charged twice for the same petrol pump of ₹1200 two days ago.,1,0,0,0,1,DUPLICATE_CHARGE
+D1651,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1545,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised. I have the SMS and bank statement.",0,0,1,0,0,FRAUD
+D1237,Failed transaction but money taken out of my savings account.,0,0,0,0,0,FAILED_TRANSACTION
+D1458,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1071,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1554,Unauthorised transaction: i din't authorize this upi ransfer. this is defniitelyfarud.,0,0,1,0,0,FRAUD
+D1314,Failed transaction but money taken out of my savings account. I have screenshots if needed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1037,"Double charge: duplicated charge for ₹3,500 — i only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1270,"Transaction shows FAILED but money was debited from my account. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1316,failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1400,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1424,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1543,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1056,"I see a duplicate transaction of ₹2,300.00 for same merchant, pls help. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1440,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1734,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1088,i got charged twice for the same clothing store of ₹499 last night.,1,0,0,0,1,DUPLICATE_CHARGE
+D1099,"I see a duplicate transaction of ₹450 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1582,refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1315,upi failed but i got debited. status shows failed. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1777,Chargeback requested as I don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1419,failed transaction but money taken out of my savings account. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1299,Payment failed but bank debited me; transaction status is FAIL. I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1020,Double charge: Two debitts ffor noee purchase at ticketing sitte minutes aaprt. Transaction IDs: 259784,1,0,0,0,1,DUPLICATE_CHARGE
+D1421,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1693,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1159,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1541,"suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1021,Double charge: two debits for one purchase at pharmacy minutes apart. Transaction IDs: 959099,0,0,0,0,1,DUPLICATE_CHARGE
+D1045,Double charge on card for ₹99 at pharmacy. Please refund. pls help,1,0,0,1,1,DUPLICATE_CHARGE
+D1293,Failed transaction: Paymment wwent through at my end bt meerchant showss afiled—I've been ccharged. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1342,"my payment failed on gateway but amount got deducted, pls reverse. pls help I contacted merchant but no response.",0,1,0,0,0,FAILED_TRANSACTION
+D1183,"I see a duplicate transaction of ₹2500 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1610,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1352,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1348,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1188,"Was charged again for the same order, oloks like ad uplicat payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1589,"refund hasn't come back to my account after the seller cancelled. pls help Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1561,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1630,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1091,Double charge: two debits for one purchase at mobile recharge minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1736,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1002,I got charged twice for the same petrol pump of ₹59.99 last night. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1497,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1078,"I was debited two times, same txn, same amount. charged twice! Transaction IDs: 843788",1,0,0,0,1,DUPLICATE_CHARGE
+D1332,Payment went through at my end but merchant shows failed—I've been charged. pls help refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1609,Still waiting for refund after canceled transaction. Transaction IDs: 992278,0,0,0,1,0,REFUND_PENDING
+D1407,Failed transaction but money taken out of my savings account. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1048,charged twice. 2 entries for same txn id at petrol pump.,1,0,0,0,1,DUPLICATE_CHARGE
+D1253,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1220,Failed transsaction but money ttaken ou tof my savings account. I have screenshots if needed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1744,My NEFT credteiid to wrong benefiicairyperrm y tatmeent. I have the SMS and bank statement.,0,0,0,0,0,OTHERS
+D1077,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1005,"was charged again for the same order, looks like a duplicate payment. I have the SMS and bank statement.",1,0,0,0,1,DUPLICATE_CHARGE
+D1722,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1408,Transactoinshwos AILED bbut oney was debiitd from my account.,0,0,0,0,0,FAILED_TRANSACTION
+D1753,emi card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1601,"Refund waiting, mrchant says refudde butn ot in my bakn.",0,0,0,1,0,REFUND_PENDING
+D1766,Payment unclear — says processed but merchant not received. pls help,0,0,0,1,0,OTHERS
+D1719,Refund hasn't come back to my account after the seller cancelled. Transaction IDs: 900611,0,0,0,1,0,REFUND_PENDING
+D1193,Double charge on card for ₹450 at utility bill. Please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1304,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1532,"Unauthorised transaction: Suspicioous txn on my account, plaese investigate — notm e.",0,0,1,0,0,FRAUD
+D1647,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1584,"Refund for canceled order not processed yet. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1786,"Suspicious txn: Chargeback requested as I don't recognize this card txn. Please reverse asap, this is urgent. refund pending.",0,0,1,1,0,OTHERS
+D1085,charged twice. 2 entries for same txn id at clothing store.,1,0,0,0,1,DUPLICATE_CHARGE
+D1412,Transctioon shhows FALIED ut moneywas debitedf rom mmy account.,0,0,0,0,0,FAILED_TRANSACTION
+D1313,NEFT failed but amount not reversed yet. I contacted merchant but no response.,0,1,0,0,0,FAILED_TRANSACTION
+D1463,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1147,"Double carge on card foor 1,9999 attmobile rechareg. Pelase refun.",1,0,0,0,1,DUPLICATE_CHARGE
+D1492,"Suspicious txn on my account, please investigate — not me. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1640,Stlil wwiating for refund after canceld transaction.,0,0,0,1,0,REFUND_PENDING
+D1453,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1110,charged twice. 2 entries for same txn id at taxi.,1,0,0,0,1,DUPLICATE_CHARGE
+D1746,EMI card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1203,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1660,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1250,Payment failed but bank debited me; transaction status is FAIL. I contacted merchant but no response.,0,1,0,0,0,FAILED_TRANSACTION
+D1121,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1560,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1061,"Double charge: duplicated charge for ₹3,500 — I only did the payment once. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1190,charged twice. 2 entries for same txn id at electronics shop.,1,0,0,0,1,DUPLICATE_CHARGE
+D1662,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1016,Double charge: dulicatd chharge for ₹99 — I onlyd id the paayment ncee.,1,0,0,0,1,DUPLICATE_CHARGE
+D1243,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1213,NEFT failed but amount not reversed yet. I have screenshots if needed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1699,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1222,payment went through at my end but merchant shows failed—i've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1510,i did not make this payment. this is fraud.,0,0,1,0,0,FRAUD
+D1498,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1583,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1030,duplicated charge for ₹99 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1161,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1397,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1034,Double charge: duplicated charge for ₹1200 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1596,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1247,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1752,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1084,charged twice. 2 entries for same txn id at restaurant.,1,0,0,0,1,DUPLICATE_CHARGE
+D1125,"I got charged twice for the same petrol pump of ₹3,500 a week ago.",1,0,0,0,1,DUPLICATE_CHARGE
+D1784,"Suspicious txn: Payment stuck in pending, not sure if merchant got it.",0,0,1,0,0,OTHERS
+D1494,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1603,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1291,Payment failed but bank debited me; transaction status is FAIL. pls help I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1215,Transaction shows FAILED but money was debited from my account. Transaction IDs: 787313,0,1,0,0,0,FAILED_TRANSACTION
+D1205,failed transaction but money taken out of my savings account. refund not yet received.,0,0,0,1,0,FAILED_TRANSACTION
+D1581,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1657,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1186,I got charged twice for the same ticketing site of ₹499 today. I have the SMS and bank statement.,1,0,0,0,1,DUPLICATE_CHARGE
+D1627,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1278,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1358,Transaction shows FAILED but money was debited from my account. I contacted merchant but no response.,0,0,0,0,0,FAILED_TRANSACTION
+D1051,"Double charge: duplicated charge for ₹2,300.00 — i only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1620,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1731,"Payment stuck in pending, not sure if merchant got it.",0,0,0,0,0,OTHERS
+D1761,My NEFT credited to wrong beneficiary per my statement.,0,0,0,0,0,OTHERS
+D1748,chargeback requested as i don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1772,chargeback requested as i don't recognize this card txn. pls help,0,0,0,0,0,OTHERS
+D1557,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1691,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1402,transaction shows failed but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1433,"My payment failed on gateway but amount got deducted, pls reverse.",0,0,0,0,0,FAILED_TRANSACTION
+D1115,"I see a duplicate transaction of ₹1,999 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1285,NEFT failed but amount not reversed yet. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1688,refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1422,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1611,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1132,Double charge: Two debits for one pruchase at uiliyt billl minutes apart. I contacted merchant but no response.,1,0,0,0,1,DUPLICATE_CHARGE
+D1442,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1411,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1678,"Refund pending: RRfuund not rreceivedd, I've been waiing for days. pls help",0,0,0,1,0,REFUND_PENDING
+D1613,Still waiting for refund after canceled transaction. pls help,0,0,0,1,0,REFUND_PENDING
+D1488,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1027,Double charge: Two debits for one purchase at petrol pump minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1208,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1371,UPI failed but I got debited. Status shows FAILED. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1626,refund pending for a ewek fater i cancellled the order.,0,0,0,1,0,REFUND_PENDING
+D1256,neft failed but amoouunt nto revvesred ye.t pls help I have screenshots if needed.,0,1,0,0,0,FAILED_TRANSACTION
+D1154,"Double charge on card for ₹1,999 at clothing store. Please refund. pls help",1,0,0,1,1,DUPLICATE_CHARGE
+D1261,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1739,"Payment stuck in pending, not sure if merchant got it.",0,0,0,0,0,OTHERS
+D1169,I got charged twice for the same taxi of ₹2500 today.,1,0,0,0,1,DUPLICATE_CHARGE
+D1683,"refund waiting, merchant says refunded but not in my bank. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1700,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1223,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1591,"Refund for canceled order not processed yet. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1743,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1116,Double charge: duplicated charge for ₹750 — I only did the payment once.,1,0,0,0,1,DUPLICATE_CHARGE
+D1616,still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1696,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1702,"Refund not received, I've been waiting for days. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1574,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1558,Unauthorised transaction: I dd not mae thiss payment. is is rfud..,0,0,1,0,0,FRAUD
+D1265,Transaction shows FAILED but money was debited from my account. I have screenshots if needed. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1703,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1382,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1351,neft failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1471,i didn't authorize this upi transfer. this is definitely fraud.,0,0,1,0,0,FRAUD
+D1764,Suspicious txn: EMI card was charged twice this month (not sure why).,0,0,1,0,1,OTHERS
+D1117,"Was charged again for the same order, looks like a duplicate payment. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1506,"I did not make this payment. This is fraud. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1667,still waiting for refund after canceled transaction. I contacted merchant but no response.,0,0,0,1,0,REFUND_PENDING
+D1480,"Unauthorized transaction on my card — suspicious charge I didn't do. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1785,"Payment stuck in pending, not sure if merchant got it. refund pending.",0,0,0,1,0,OTHERS
+D1670,Refund for canceled order not processed yet. I have the SMS and bank statement.,0,0,0,1,0,REFUND_PENDING
+D1495,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1272,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1039,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1168,"was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1068,"I see a duplicate transaction of ₹750 for same merchant, pls help.",0,0,0,0,1,DUPLICATE_CHARGE
+D1682,"Refund for canceled order not processed yet. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1216,"My payment failed on gateway but amount got deducted, pls reverse. I contacted merchant but no response.",0,1,0,0,0,FAILED_TRANSACTION
+D1762,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1438,TTransaation shows FAILED but moneey as debitedd from my account. refund not yet received.,0,0,0,1,0,FAILED_TRANSACTION
+D1156,charged twice. 2 entries for same txn id at ticketing site.,1,0,0,0,1,DUPLICATE_CHARGE
+D1428,Payment went through at my end but merchant shows failed—I've been charged. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1595,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1429,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1200,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1137,"I see a duplicate transaction of ₹2,300.00 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1013,"Double charge on card for ₹3,500 at grocery store. Please refund. pls help",1,0,0,1,1,DUPLICATE_CHARGE
+D1311,Failed transaction but money taken out of my savings account. I have the SMS and bank statement.,0,1,0,0,0,FAILED_TRANSACTION
+D1046,"Double charge: duplicated charge for ₹1200 — I only did the payment once. Please reverse asap, this is urgent.",1,0,0,0,1,DUPLICATE_CHARGE
+D1043,Double charge: Two debits for one purchase at utility bill minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1226,"My payment failed on gateway but amount got deducted, pls reverse. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1707,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1283,"My payment failed on gateway but amount got deducted, pls reverse. pls help",0,1,0,0,0,FAILED_TRANSACTION
+D1394,failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1096,"I see a duplicate transaction of ₹59.99 for same merchant, pls help. Transaction IDs: 702022",1,0,0,0,1,DUPLICATE_CHARGE
+D1202,UPI failed but I got debited. Status shows FAILED.,0,0,0,0,0,FAILED_TRANSACTION
+D1769,payment unclear — says processed but merchant not received. refund pending.,0,0,0,1,0,OTHERS
+D1148,Double charge on card for ₹499 at clothing store. Please refund. Transaction IDs: 794622,1,0,0,1,1,DUPLICATE_CHARGE
+D1274,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1451,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1339,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1684,"Refund pnedingf or a week after I cancellled thee order. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1158,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1685,refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1593,"Refund not receive, I'veb een waiting for dyas.",0,0,0,1,0,REFUND_PENDING
+D1740,chargeback requested as i don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1658,Still waiting for refund after canceled transaction. I have screenshots if needed.,0,0,0,1,0,REFUND_PENDING
+D1527,"This looks like fraud, I didn't authorize this debit.",0,0,1,0,0,FRAUD
+D1607,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1500,unauthorized transaction on my card — suspicious charge i didn't do.,0,0,1,0,0,FRAUD
+D1449,I didn't authorize this UPI transfer. This is definitely fraud. pls help,0,0,1,0,0,FRAUD
+D1127,"Double charge: duplicated chareg fro ₹1,,999 — i onlyy did thhe paaymennt oncce.",0,0,0,0,1,DUPLICATE_CHARGE
+D1782,emi card was charged twice this month (not sure why). pls help refund pending.,0,0,0,1,1,OTHERS
+D1617,still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1654,Refund pending: Rfeun pending for a week aftr I nacelled the oorder.,0,0,0,1,0,REFUND_PENDING
+D1292,"My payment failed on gateway but amount got deducted, pls reverse. I have screenshots if needed. refund not yet received.",0,1,0,1,0,FAILED_TRANSACTION
+D1335,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1356,Payment failedbut ban kdebited me; transactionn status s FAIL. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1680,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1343,transaction shows failed but money was debited from my account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1674,refund hasn't come back ot my accounnt after the sellrecancelled.,0,0,0,1,0,REFUND_PENDING
+D1460,"Suspicious txn on my account, please investigate — not me. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1645,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1622,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1750,payment unclear — says processed but merchant not received. pls help,0,0,0,1,0,OTHERS
+D1224,"Failed transaction but money taken out of my savings account. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1522,i didn't authorize this pui traasfer. this is definiteely fraud.,0,0,1,0,0,FRAUD
+D1026,"I see a duplicate transaction of ₹499 for same merchant, pls help. I have screenshots if needed.",1,0,0,0,1,DUPLICATE_CHARGE
+D1062,charged twice. 2 entries for same txn id at mobile recharge.,0,0,0,0,1,DUPLICATE_CHARGE
+D1277,Transaction shows FAILED but money was debited from my account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1576,"Refund pending: still waiting for efund after canceeld transactino. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1655,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1781,payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1012,"i see a duplicate transaction of ₹99 for same merchant, pls help. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1170,Double charge: two debits for one purchase at online marketplace minutes apart. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1519,i did not make this payment. this is fraud. Transaction IDs: 245295,0,0,1,0,0,FRAUD
+D1318,Transaction shows FAILED but money was debited from my account. Transaction IDs: 218152,0,1,0,0,0,FAILED_TRANSACTION
+D1199,Double charge on card for ₹1200 at electronics shop. Please refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1340,Payment went through at my end but merchant shows failed—I've been charged. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1361,payment failed but bank debited me; transaction status is fail. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1070,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1788,emi card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1042,I got charged twice for the same grocery store of ₹750 last night.,1,0,0,0,1,DUPLICATE_CHARGE
+D1489,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1565,Still waiting for refund after canceled transaction. pls help,0,0,0,1,0,REFUND_PENDING
+D1525,i didn't authorize this upi transfer. this is definitely fraud.,0,0,1,0,0,FRAUD
+D1364,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1302,NEFT failed but amount not reversed yet. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1080,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1444,I didn' tauthorie this UPI transfe.r This sdefinitely fraud.,0,0,1,0,0,FRAUD
+D1396,NEFT failed but amount not reversed yet.,0,1,0,0,0,FAILED_TRANSACTION
+D1623,"Refund nto received, I've been witing fro days. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1359,"My payment failed on gateway but amount got deducted, pls reverse. pls help",0,1,0,0,0,FAILED_TRANSACTION
+D1055,"Was charged again for the same order, looks like a duplicate payment. I contacted merchant but no response.",1,0,0,0,1,DUPLICATE_CHARGE
+D1384,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1303,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1729,payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1150,"i see a duplicate transaction of ₹750 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1694,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1053,"i got charged twice for the same clothing store of ₹2,300.00 yesterday.",1,0,0,0,1,DUPLICATE_CHARGE
+D1426,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1134,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1475,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1210,Payment failed but bank debited me; transaction status is FAIL. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1381,NEFT failed but amount not reversed yet. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1477,"Unauthorised transaction: not my transaction. someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1672,Refund for canceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1409,Transactionshows FAILED but moeny as debitd from my acconuut.,0,1,0,0,0,FAILED_TRANSACTION
+D1643,"Refund waiting, merchant says refunded but not in my bank. pls help",0,0,0,1,0,REFUND_PENDING
+D1259,payment went through at my end but merchant shows failed—i've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1450,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised. I have the SMS and bank statement.",0,0,1,0,0,FRAUD
+D1233,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1641,Still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1758,"Payment stuck in pending, not sure if merchant got it. Please reverse asap, this is urgent.",0,0,0,0,0,OTHERS
+D1251,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1406,"NEFT failed but amount not reversed yet. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1310,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1144,"I was debited two times, same txn, same amount. charged twice! pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1605,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1461,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1151,"double charge on card for ₹2,300.00 at restaurant. please refund.",0,0,0,1,1,DUPLICATE_CHARGE
+D1446,"This looks like fraud, I didn't authorize this debit. I contacted merchant but no response.",0,0,1,0,0,FRAUD
+D1221,"My payment failed on gateway but amount got deducted, pls reverse. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1017,"was charged again for the same order, looks like a duplicate payment. I contacted merchant but no response.",1,0,0,0,1,DUPLICATE_CHARGE
+D1204,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1499,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1323,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1025,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1383,failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1307,Payyment went tthrouhg at mye nd but mecant sowhs failed—I've been chargd. I contacted merchant but no response. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1385,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1392,Transactoin showws FFAILED but money was debtedf rom my account. pls help,0,1,0,0,0,FAILED_TRANSACTION
+D1423,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1619,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1119,"i see a duplicate transaction of ₹99 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1306,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1698,Refund hasn't come back to my account after the seller cancelled. pls help I have the SMS and bank statement.,0,0,0,1,0,REFUND_PENDING
+D1615,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1076,"Double charge on card for ₹2,300.00 at petrol pump. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1212,"Failed transaction but money taken out of my savings account. Please reverse asap, this is urgent.",0,1,0,0,0,FAILED_TRANSACTION
+D1778,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1130,charged twice. 2 entries for same txn id at utility bill.,1,0,0,0,1,DUPLICATE_CHARGE
+D1512,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1516,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised. Please reverse asap, this is urgent.",0,0,1,0,0,FRAUD
+D1751,"Payment stuck in pending, not sure if merchant got it.",0,0,0,0,0,OTHERS
+D1418,Transaction shows FAILED but money was debited from my account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1537,"suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1258,NEFT failed but amount not reversed yet. Transaction IDs: 611540,0,1,0,0,0,FAILED_TRANSACTION
+D1415,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1592,still waiting for refund after canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1687,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1363,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1533,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1663,Refund for canceled order not processed yet. pls help,0,0,0,1,0,REFUND_PENDING
+D1478,i did not make this payment. this is fraud.,0,0,1,0,0,FRAUD
+D1763,emi card was charged twice this month (not sure why).,0,0,0,0,1,OTHERS
+D1414,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1555,"Suspicious txn on my account, please investigate — not me. I contacted merchant but no response.",0,0,1,0,0,FRAUD
+D1564,Refund hasn't come back to my account after the seller cancelled. I have the SMS and bank statement.,0,0,0,1,0,REFUND_PENDING
+D1405,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1502,Unauthorised transaction: I ddid not make thhispayemnt. This is fradu.,0,0,1,0,0,FRAUD
+D1542,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1472,"Suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1295,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1001,"double charge on card for ₹2,300.00 at grocery store. please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1140,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1387,Failed transaction but money taken out of my savings account. Transaction IDs: 274174,0,1,0,0,0,FAILED_TRANSACTION
+D1732,payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1044,I got charged twice for the same restaurant of ₹1200 on 10/09/2025. Transaction IDs: 154944,1,0,0,0,1,DUPLICATE_CHARGE
+D1621,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1656,"Still waiting for refund after canceled transaction. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1166,Double charge: Two debits or one puurchas eat pharmacy minutees apart..,1,0,0,0,1,DUPLICATE_CHARGE
+D1255,Payment went through at my end but merchant shows failed—I've been charged.,0,1,0,0,0,FAILED_TRANSACTION
+D1113,"was charged again for the same order, looks like a duplicate payment. Transaction IDs: 176319",1,0,0,0,1,DUPLICATE_CHARGE
+D1180,"Was charged again for the same order, looks like a duplicate payment. Please reverse asap, this is urgent.",1,0,0,0,1,DUPLICATE_CHARGE
+D1466,i didn't authorize this upi transfer. this is definitely fraud.,0,0,1,0,0,FRAUD
+D1717,refund pending for a week after i cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1724,"Payment unclear — says processed but merchant not received. Please reverse asap, this is urgent.",0,0,0,1,0,OTHERS
+D1756,Chargeback requested as I don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1588,Refund pending for a week after I cancelled the order.,0,0,0,1,0,REFUND_PENDING
+D1377,"My payment failed on gateway but ammoutn got deducted, pls reverse",0,0,0,0,0,FAILED_TRANSACTION
+D1624,Still waiting for refund after canceled transaction. Transaction IDs: 254655,0,0,0,1,0,REFUND_PENDING
+D1248,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1136,charged twice. 2 entries for same txn id at electronics shop. I have screenshots if needed.,1,0,0,0,1,DUPLICATE_CHARGE
+D1160,"I see a duplicate transaction of ₹750 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1481,i did not make this payment. this is fraud. pls help,0,0,1,0,0,FRAUD
+D1775,gt two upi debit messagesf or one qr sscan — unusre whatt happened.,0,0,0,0,0,OTHERS
+D1737,My NEFT credited to wrong beneficiary per my statement.,0,0,0,0,0,OTHERS
+D1139,"Was charged again for the same order, looks like a duplicate payment. pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1404,Transaction shows FAILED but money was debited from my account.,0,0,0,0,0,FAILED_TRANSACTION
+D1059,"Duplicate charge: Was charged againn fo rthe same order, looks likee a duupllcate payment",1,0,0,0,1,DUPLICATE_CHARGE
+D1517,I didn't auuhtoriz ethis UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1513,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1022,"I got charged twice for the same mmobilee rechar eof ₹1,,999 a week ago.",1,0,0,0,1,DUPLICATE_CHARGE
+D1526,"Suspicious txn on my account, please investigate — not me. I have screenshots if needed.",0,0,1,0,0,FRAUD
+D1279,Payment went through at my end but merchant shows failed—I've been charged. I have screenshots if needed.,0,1,0,0,0,FAILED_TRANSACTION
+D1176,"Was charged again fort he same order, looks like a dulpiate ayment. pls heelp",1,0,0,0,1,DUPLICATE_CHARGE
+D1334,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1009,"I see a duplicate transaction of ₹99 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1252,Failed transaction: UPI aiileed butt I gotd ebited. Status showss FALEDD.,0,1,0,0,0,FAILED_TRANSACTION
+D1192,"was charged again fo rthe same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1726,Payment unclear — says processed but merchant not received. refund pending.,0,0,0,1,0,OTHERS
+D1157,Double charge: Two debits for one purrchase at icketing site minutesapatr.,1,0,0,0,1,DUPLICATE_CHARGE
+D1727,Chargeback requested as I don't recognize this card txn.,0,0,0,0,0,OTHERS
+D1378,"MMy paymen tfailed on gatewy but amount got dedccted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1767,EMII card was chared twice thiis onmth (nott sure why). pls help refund pending.,0,0,0,1,1,OTHERS
+D1474,Unauthorized transaction on my card — suspicious charge I didn't do.,0,0,1,0,0,FRAUD
+D1128,"i was debited two times, same txn, same amount. charged twice! I contacted merchant but no response.",1,0,0,0,1,DUPLICATE_CHARGE
+D1547,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1184,"I was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1791,My NEFT credited to wrong beneficiary per my statement.,0,0,0,0,0,OTHERS
+D1104,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1749,my neft credited to wrong beneficiary per my statement. refund pending.,0,0,0,1,0,OTHERS
+D1079,"Double charge: duplicated charge for ₹2,300.00 — I only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1730,"Suspicious txn: Payment stuck in pending, not sure if merchant got it. pls help",0,0,1,0,0,OTHERS
+D1618,"refund waiting, merchant says refunded but not in my bank. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1779,Got two UPI debit messages for one QR scan — unsure what happened.,0,0,0,0,0,OTHERS
+D1018,"Double charge: Doublec harge on card for ₹1,999 at elecroncs shop. Please refund.",1,0,0,1,1,DUPLICATE_CHARGE
+D1242,NEFT failed but amount not reversed yet. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1172,"Was charged again for the same order, looks like a duplicate payment.",0,0,0,0,1,DUPLICATE_CHARGE
+D1434,payment failed but bank debited me; transaction status is fail. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1482,I did not make htis payment. This is fraud.,0,0,1,0,0,FRAUD
+D1562,"Still waiting for refund after canceled transaction. Please reverse asap, this is urgent.",0,0,0,1,0,REFUND_PENDING
+D1296,"my payment failed on gateway but amount got deducted, pls reverse. Transaction IDs: 566843",0,1,0,0,0,FAILED_TRANSACTION
+D1181,"i was debited two times, same txn, same amount. charged twice!",1,0,0,0,1,DUPLICATE_CHARGE
+D1671,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1587,"Refund not received, I've been waiting for days.",0,0,0,1,0,REFUND_PENDING
+D1054,charged twice. 2 entries for same txn id at petrol pump.,1,0,0,0,1,DUPLICATE_CHARGE
+D1636,Refund for acnceled order not processed yet.,0,0,0,1,0,REFUND_PENDING
+D1770,Got two UPI debit messages for one Q scan — unsure hat happend.,0,0,0,0,0,OTHERS
+D1238,"My payment failed on gateway but amount got deducted, pls reverse.",0,1,0,0,0,FAILED_TRANSACTION
+D1069,"Double charge: I was debite twtimes, samtxn, samme aamuont.. chaagred ttwie!",1,0,0,0,1,DUPLICATE_CHARGE
+D1534,Unauthorized transaction on my card — suspicious charge I didn't do. Transaction IDs: 142942,0,0,1,0,0,FRAUD
+D1171,charged twice. 2 entries for same txn id at ticketing site.,1,0,0,0,1,DUPLICATE_CHARGE
+D1320,Failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1420,Payment failed but bank debited me; transaction status is FAIL. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1774,EEMI card wa schargeedd twice this month (not sure hwy).,0,0,0,0,1,OTHERS
+D1191,"I see a duplicate transaction of ₹750 for same merchant, pls help.",1,0,0,0,1,DUPLICATE_CHARGE
+D1286,Failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1800,"Suspicious txn: Payment stuck in pending, not sure if merchant got it. pls help I contacted merchant but no response.",0,0,1,0,0,OTHERS
+D1146,Double charge: duplicated charge for ₹750 — I only did the payment once. I contacted merchant but no response.,1,0,0,0,1,DUPLICATE_CHARGE
+D1301,Payment went through at my end but merchant shows failed—I've been charged. I have screenshots if needed.,0,0,0,0,0,FAILED_TRANSACTION
+D1153,double charge on card for ₹499 at pharmacy. please refund. pls help,1,0,0,1,1,DUPLICATE_CHARGE
+D1464,I didn't authorize this UPI transfer. This is definitely fraud.,0,0,1,0,0,FRAUD
+D1794,EMI card was charged twice this month (not sure why). pls help,0,0,0,0,1,OTHERS
+D1538,"This looks like fraud, I didn't authorize this debit.",0,0,1,0,0,FRAUD
+D1082,"Double charge: duplicated charge for ₹2,300.00 — i only did the payment once.",1,0,0,0,1,DUPLICATE_CHARGE
+D1257,Transaction shows FAILED but money was debited from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1052,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1567,"Refund not received, I''ve been waitingfor days. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1713,Refund hasn't come back to my account after the seller cancelled.,0,0,0,1,0,REFUND_PENDING
+D1631,"Refund waiting, merchant says refunded but not in my bank.",0,0,0,1,0,REFUND_PENDING
+D1095,charged twice. 2 entries for same txn id at utility bill. pls help,1,0,0,0,1,DUPLICATE_CHARGE
+D1163,double chaarge on card or 75 at onlinne marketlpae. plase refund.,1,0,0,1,1,DUPLICATE_CHARGE
+D1725,"payment stuck in pending, not sure if merchant got it. I have the SMS and bank statement.",0,0,0,0,0,OTHERS
+D1093,"I was debited two times, same txn, same amount. charged twice! pls help",1,0,0,0,1,DUPLICATE_CHARGE
+D1792,Payment unclear — says processed but merchant not received.,0,0,0,1,0,OTHERS
+D1050,"Was charged again for the same order, looks like a duplicate payment. Please reverse asap, this is urgent.",1,0,0,0,1,DUPLICATE_CHARGE
+D1374,Failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1391,Failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1038,charged twice. 2 entries for same txn id at mobile recharge.,1,0,0,0,1,DUPLICATE_CHARGE
+D1201,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1544,"suspicious txn on my account, please investigate — not me.",0,0,1,0,0,FRAUD
+D1614,refund pending for a week after i cancelled the order. I have screenshots if needed.,0,0,0,1,0,REFUND_PENDING
+D1530,"This looks like fraud, I didn't authorize this debit. pls help",0,0,1,0,0,FRAUD
+D1661,"Refund waiting, merchant says refunded but not in my bank. I contacted merchant but no response.",0,0,0,1,0,REFUND_PENDING
+D1600,refund pending for a week after i cancelled the order. I contacted merchant but no response.,0,0,0,1,0,REFUND_PENDING
+D1225,failed transaction but money taken out of my savings account.,0,1,0,0,0,FAILED_TRANSACTION
+D1173,Double charge: Two debits for one purchase at ticketing site minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D1162,"I got charged twice for the same restaurant of ₹1,999 on 10/09/2025.",1,0,0,0,1,DUPLICATE_CHARGE
+D1491,Unauthorized transaction on my card — sspicious charge I dint o.,0,0,1,0,0,FRAUD
+D1267,Failed transsactoin but money taken out of my savings ccaoutn.,0,1,0,0,0,FAILED_TRANSACTION
+D1376,Failed transaction: Failde transactin obut money taken ot of my saavings account. Transaction IDs: 154629,0,1,0,0,0,FAILED_TRANSACTION
+D1276,Failed transaction but money taken out of my savings account. refund not yet received.,0,1,0,1,0,FAILED_TRANSACTION
+D1235,UPI failed but I got debited. Status shows FAILED.,0,1,0,0,0,FAILED_TRANSACTION
+D1357,upi failed but i got debited. status shows failed. I contacted merchant but no response.,0,1,0,0,0,FAILED_TRANSACTION
+D1262,Payment failed but bank debited me; transaction status is FAIL.,0,1,0,0,0,FAILED_TRANSACTION
+D1448,"This looks like fraud, I didn't authorize this debit. I have screenshots if needed.",0,0,1,0,0,FRAUD
+D1092,"Was charged again for the same order, looks like a duplicate payment.",1,0,0,0,1,DUPLICATE_CHARGE
+D1435,NEFT failed buta mount not revrsed te. plss help Transaction IDs: 675069,0,1,0,0,0,FAILED_TRANSACTION
+D1457,"Unauthorised transaction: Not my transaction. Someone used my card, it's unauthorised.",0,0,1,0,0,FRAUD
+D1742,MII card was charged twice this mont h(not sure hy).,0,0,0,0,1,OTHERS
+D1447,i did not make thsi pyment. this iss fraud.,0,0,1,0,0,FRAUD
+D001,I did not authorize this transaction from my card. It is fraud.,0,0,1,0,0,FRAUD
+D002,"My UPI transfer failed, but the amount was debited from my account and has not been reversed.",0,1,0,1,0,FAILED_TRANSACTION
+D003,Charged me twice for the same coffee at Starbucks. The transactions were minutes apart.,1,0,0,0,1,DUPLICATE_CHARGE
+D004,"I canceled my order with Myntra last week, but I'm still waiting for the refund.",0,0,0,1,0,REFUND_PENDING
+D005,Transaction showing processed but beneficiary has not received the funds.,0,0,0,0,0,OTHERS
+D006,Got two debit messages for one QR scan at the local kirana store. This is a duplicate payment.,1,0,0,0,1,DUPLICATE_CHARGE
+D007,This payment to an international website looks very suspicious. I've never used this site.,0,0,1,0,0,FRAUD
+D008,"NEFT transfer timed out and failed, but the amount is not yet credited back.",0,1,0,1,0,FAILED_TRANSACTION
+D009,"My flight was canceled by Indigo, but the refund is not yet processed.",0,0,0,1,0,REFUND_PENDING
+D010,"The transaction failed at the POS machine, but I still got a debit SMS.",0,1,0,0,0,FAILED_TRANSACTION
+D011,I got charged twice for my monthly gym subscription this month.,1,0,0,0,1,DUPLICATE_CHARGE
+D012,Payment status is stuck in pending. Did the merchant receive it or not?,0,0,0,0,0,OTHERS
+D013,Unauthorised charge on my account. It was not me.,0,0,1,0,0,FRAUD
+D014,"The payment gateway showed an error, but my account was debited.",0,1,0,0,0,FAILED_TRANSACTION
+D015,"I returned a product to Amazon, waiting for my money back.",0,0,0,1,0,REFUND_PENDING
+D016,"Paid my credit card bill, but the app shows a failed transaction with money deducted.",0,1,0,0,0,FAILED_TRANSACTION
+D017,Someone made a fraudulent transaction using my details.,0,0,1,0,0,FRAUD
+D018,Billed again for the same item within seconds. Please reverse the duplicate charge.,1,0,0,0,1,DUPLICATE_CHARGE
+D019,"The merchant told me the transaction was canceled, where is my refund?",0,0,0,1,0,REFUND_PENDING
+D020,My UPI payment failed but money not refunded yet.,0,1,0,1,0,FAILED_TRANSACTION
+D021,This transaction was not made by me. This looks like a fraud.,0,0,1,0,0,FRAUD
+D022,Got a double charge at the petrol pump. The attendant swiped my card twice.,1,0,0,0,1,DUPLICATE_CHARGE
+D023,My NEFT failed but the amount has not been reversed.,0,1,0,1,0,FAILED_TRANSACTION
+D024,I see a charge on my card that I dont recognize.,0,0,1,0,0,FRAUD
+D025,My refund for a cancelled train ticket has not been credited.,0,0,0,1,0,REFUND_PENDING
+D026,"There's an issue with my recent payment, the amount seems incorrect.",0,0,0,0,0,OTHERS
+D027,"IMPS transfer failed, amount deducted from account.",0,1,0,0,0,FAILED_TRANSACTION
+D028,The same amount was debited twice from my account for a single food order on Swiggy.,1,0,0,0,1,DUPLICATE_CHARGE
+D029,I'm still waiting for money for a canceled transaction from two weeks ago.,0,0,0,1,0,REFUND_PENDING
+D030,I suspect a fraudulent activity on my account. I didn't make this payment.,0,0,1,0,0,FRAUD
+D031,"Payment app crashed during transaction, but my bank shows money is gone.",0,1,0,0,0,FAILED_TRANSACTION
+D032,Duplicate debit for my electricity bill payment.,1,0,0,0,1,DUPLICATE_CHARGE
+D033,Wrong amount charged for my EMI this month.,0,0,0,0,0,OTHERS
+D034,Refund pending for a week after failed POS swipe.,0,1,0,1,0,FAILED_TRANSACTION
+D035,Why am I being charged again for the same service?,1,0,0,0,1,DUPLICATE_CHARGE
+D036,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D037,Refund not received for returned goods.,0,0,0,1,0,REFUND_PENDING
+D038,My transaction failed but the amount was debited.,0,1,0,0,0,FAILED_TRANSACTION
+D039,"This transaction is unauthorized, please block my card.",0,0,1,0,0,FRAUD
+D040,I see two charges for my recent purchase from Zara.,1,0,0,0,1,DUPLICATE_CHARGE
+D041,Beneficiary did not receive the money but my account is debited.,0,0,0,0,0,OTHERS
+D042,Still waiting for refund after canceled transaction,0,0,0,1,0,REFUND_PENDING
+D043,"UPI transfer failed but account is debited, no reversal yet.",0,1,0,1,0,FAILED_TRANSACTION
+D044,A payment was made from my account that I do not recognise.,0,0,1,0,0,FRAUD
+D045,Got two UPI debit messages for one QR scan.,1,0,0,0,1,DUPLICATE_CHARGE
+D046,My NEFT is showing processed but beneficiary says not received.,0,0,0,0,0,OTHERS
+D047,Got debited after payment failed on gateway.,0,1,0,0,0,FAILED_TRANSACTION
+D048,Refund for canceled order not received,0,0,0,1,0,REFUND_PENDING
+D049,This transaction looks suspicious. I didn't authorize it,0,0,1,0,0,FRAUD
+D050,"Duplicate UPI transfer to same VPA, minutes apart.",1,0,0,0,1,DUPLICATE_CHARGE
+D051,NEFT failed but amount not reversed yet.,0,1,0,1,0,FAILED_TRANSACTION
+D052,Double charge from the same merchant within minutes.,1,0,0,0,1,DUPLICATE_CHARGE
+D053,I have been waiting for my refund for over 15 days now.,0,0,0,1,0,REFUND_PENDING
+D054,This is a fraudulent charge. I was at work when this transaction happened.,0,0,1,0,0,FRAUD
+D055,My payment failed but my card was charged.,0,1,0,0,0,FAILED_TRANSACTION
+D056,There is a problem with the last transaction.,0,0,0,0,0,OTHERS
+D057,A second charge appeared on my statement for my hotel booking.,1,0,0,0,1,DUPLICATE_CHARGE
+D058,"The app showed payment failed, but my bank debited the amount.",0,1,0,0,0,FAILED_TRANSACTION
+D059,An unauthorized payment was made using my debit card.,0,0,1,0,0,FRAUD
+D060,"I returned the shoes I bought online, when will I get my money back?",0,0,0,1,0,REFUND_PENDING
+D061,The same UPI payment was sent twice by mistake.,1,0,0,0,1,DUPLICATE_CHARGE
+D062,Transaction timed out but money was not credited back.,0,1,0,1,0,FAILED_TRANSACTION
+D063,I dont know who made this transfer. It wasn't me.,0,0,1,0,0,FRAUD
+D064,"Payment issue, need assistance.",0,0,0,0,0,OTHERS
+D065,My money for a failed transaction has not been refunded.,0,1,0,1,0,FAILED_TRANSACTION
+D066,Charged again for the same purchase.,1,0,0,0,1,DUPLICATE_CHARGE
+D067,Refund not initiated for cancelled service.,0,0,0,1,0,REFUND_PENDING
+D068,Saw a duplicate charge on my statement from an online store.,1,0,0,0,1,DUPLICATE_CHARGE
+D069,My card was used for a transaction I didn't make.,0,0,1,0,0,FRAUD
+D070,My online payment failed but I was charged for it.,0,1,0,0,0,FAILED_TRANSACTION
+D071,The merchant is saying they havent recieved the payment.,0,0,0,0,0,OTHERS
+D072,"I cancelled my food order, awaiting refund.",0,0,0,1,0,REFUND_PENDING
+D073,My card was swiped twice at the restaurant.,1,0,0,0,1,DUPLICATE_CHARGE
+D074,This is a suspicious debit from my account.,0,0,1,0,0,FRAUD
+D075,Transaction error but money deducted. Not reversed.,0,1,0,1,0,FAILED_TRANSACTION
+D076,Double debit for mobile recharge.,1,0,0,0,1,DUPLICATE_CHARGE
+D077,When will I receive my refund?,0,0,0,1,0,REFUND_PENDING
+D078,"Payment failed, amount not yet credited to my account.",0,1,0,1,0,FAILED_TRANSACTION
+D079,This charge is fraudulent. I have my card with me.,0,0,1,0,0,FRAUD
+D080,Billed twice for one subscription.,1,0,0,0,1,DUPLICATE_CHARGE
+D081,My NEFT tx failed but money is gone.,0,1,0,0,0,FAILED_TRANSACTION
+D082,The POS machine showed error but I got a debit alert.,0,1,0,0,0,FAILED_TRANSACTION
+D083,I lost my wallet yesterday and I see this suspicious transaction today.,0,0,1,0,0,FRAUD
+D084,The merchant cancelled my order. Where is my refund?,0,0,0,1,0,REFUND_PENDING
+D085,My account has been charged two times for the same thing.,1,0,0,0,1,DUPLICATE_CHARGE
+D086,What is this charge? I did not buy anything from this site.,0,0,1,0,0,FRAUD
+D087,"I tried to pay but it failed, now my money is gone.",0,1,0,0,0,FAILED_TRANSACTION
+D088,Duplicate charge for movie tickets.,1,0,0,0,1,DUPLICATE_CHARGE
+D089,I am still waiting for the refund promised by the merchant.,0,0,0,1,0,REFUND_PENDING
+D090,Payment confirmation not received from merchant.,0,0,0,0,0,OTHERS
+D091,"My account was debited, but the transfer failed.",0,1,0,0,0,FAILED_TRANSACTION
+D092,This is not my transaction. Please investigate this fraud.,0,0,1,0,0,FRAUD
+D093,The exact same amount was deducted twice.,1,0,0,0,1,DUPLICATE_CHARGE
+D094,Transaction shows failed but money was debited.,0,1,0,0,0,FAILED_TRANSACTION
+D095,Refund for returned item is still pending.,0,0,0,1,0,REFUND_PENDING
+D096,My card was charged again at the supermarket.,1,0,0,0,1,DUPLICATE_CHARGE
+D097,An unauthorized payment was processed from my account.,0,0,1,0,0,FRAUD
+D098,The payment was declined but my account balance is reduced.,0,1,0,0,0,FAILED_TRANSACTION
+D099,I need help with a transaction.,0,0,0,0,0,OTHERS
+D100,Charged twice for my online grocery order.,1,0,0,0,1,DUPLICATE_CHARGE
+D790,Unauthorised transaction on my credit card from a merchant I don't know.,0,0,1,0,0,FRAUD
+D791,Duplicate debit for my phone bill this month.,1,0,0,0,1,DUPLICATE_CHARGE
+D792,My UPI transfer got stuck and failed but the money has not come back yet.,0,1,0,1,0,FAILED_TRANSACTION
+D793,The refund for my cancelled booking has not been credited.,0,0,0,1,0,REFUND_PENDING
+D794,This transaction looks suspicious. It happened at 3 AM.,0,0,1,0,0,FRAUD
+D795,Billed me again for the same ride on Uber.,1,0,0,0,1,DUPLICATE_CHARGE
+D796,My payment did not go through but the amount was debited.,0,1,0,0,0,FAILED_TRANSACTION
+D797,I have been waiting for a refund for a returned shirt for 3 weeks.,0,0,0,1,0,REFUND_PENDING
+D798,"The cashier said the first payment didnt work and swiped again, now i have two charges.",1,0,0,0,1,DUPLICATE_CHARGE
+D799,My card was used for a payment in another city. I was not there. This is fraud.,0,0,1,0,0,FRAUD
+D800,The transaction was unsuccessful but the money was taken from my account.,0,1,0,0,0,FAILED_TRANSACTION
+D1002,I did not make this transaction. This is completely unauthorized.,0,0,1,0,0,FRAUD
+D1003,Charged twice for my coffee order just now. The second charge was a mistake.,1,0,0,0,1,DUPLICATE_CHARGE
+D1004,Still waiting for my refund from a canceled Swiggy order from last week.,0,0,0,1,0,REFUND_PENDING
+D1005,UPI transfer failed but money was not refunded.,0,1,0,1,0,FAILED_TRANSACTION
+D1006,There is a suspicious transaction on my credit card that I don't recognize.,0,0,1,0,0,FRAUD
+D1008,I see a duplicate charge for my subscription this month. Please check and reverse one.,1,0,0,1,1,DUPLICATE_CHARGE
+D1009,The transaction failed but the amount was deducted. Pls credit back.,0,1,0,1,0,FAILED_TRANSACTION
+D1010,My NEFT failed but the amount has not been reversed yet.,0,1,0,1,0,FAILED_TRANSACTION
+D1011,NEFT credited to wrong beneficiary per my statement. What should I do?,0,0,0,0,0,OTHERS
+D1012,My card was charged twice at the petrol pump. The attendant said the first one failed.,1,0,0,0,1,DUPLICATE_CHARGE
+D1013,I returned an item to Amazon but my refund hasn't been processed.,0,0,0,1,0,REFUND_PENDING
+D1014,This transaction is fraud. I was sleeping when this payment happened.,0,0,1,0,0,FRAUD
+D1015,Got debited after payment failed on gateway.,0,1,0,0,0,FAILED_TRANSACTION
+D1016,My wallet shows a payment I did not authorize. Please investigate.,0,0,1,0,0,FRAUD
+D1017,Double charged for my order #54321.,1,0,0,0,1,DUPLICATE_CHARGE
+D1019,Transaction shows fail but money was debited.,0,1,0,0,0,FAILED_TRANSACTION
+D1021,Got two debit messages for one QR scan at the local store.,1,0,0,0,1,DUPLICATE_CHARGE
+D1022,The amount debited is incorrect.,0,0,0,0,0,OTHERS
+D1023,My NEFT is showing processed but beneficiary says they have not received the funds.,0,1,0,1,0,FAILED_TRANSACTION
+D1024,This is a suspicious payment. I think my card has been compromised.,0,0,1,0,0,FRAUD
+D1025,Still waiting for money back after a canceled transaction.,0,0,0,1,0,REFUND_PENDING
+D1028,IMPS transaction failed. amount debited. pls reverse.,0,1,0,1,0,FAILED_TRANSACTION
+D1029,Someone used my card details for an online purchase. This is not me.,0,0,1,0,0,FRAUD
+D1031,Why was I charged twice for the same thing?,1,0,0,0,1,DUPLICATE_CHARGE
+D1032,I did not make this payment. This is fraud.,0,0,1,0,0,FRAUD
+D1033,My payment to merchant@upi failed but I was debited.,0,1,0,0,0,FAILED_TRANSACTION
+D1035,Duplicate charge for the same merchant within minutes.,1,0,0,0,1,DUPLICATE_CHARGE
+D1036,Chargeback requested as I don't recognize this card txn.,0,0,1,1,0,FRAUD
+D1037,Refund pending for a week after failed POS swipe. Please look into it.,0,0,0,1,0,REFUND_PENDING
+D1038,My money has not been returned for the cancelled booking.,0,0,0,1,0,REFUND_PENDING
+D1039,The POS machine charged my card twice.,1,0,0,0,1,DUPLICATE_CHARGE
+D1040,There is an issue with my last transaction. Please check.,0,0,0,0,0,OTHERS
+D1042,I see an unauthorized debit from my account.,0,0,1,0,0,FRAUD
+D1044,Payment faild on BookMyShow but money was taken.,0,1,0,0,0,FAILED_TRANSACTION
+D1045,This transaction looks suspicious. I didn't authorize it.,0,0,1,0,0,FRAUD
+D1046,I am still waiting for refund after I cancelled my transaction.,0,0,0,1,0,REFUND_PENDING
+D1047,Got charged again for the same service.,1,0,0,0,1,DUPLICATE_CHARGE
+D1048,There was an error during payment but my account is debited.,0,1,0,0,0,FAILED_TRANSACTION
+D1049,Payment issue. Not sure what happened.,0,0,0,0,0,OTHERS
+D1050,When will I get my money back for the cancelled movie tickets?,0,0,0,1,0,REFUND_PENDING
+D1051,I was double charged at the restaurant last night.,1,0,0,0,1,DUPLICATE_CHARGE
+D1052,An unauthorized IMPS transfer was made from my account.,0,0,1,0,0,FRAUD
+D1053,My transaction of Rs 2000 failed and the amount is not reversed.,0,1,0,1,0,FAILED_TRANSACTION
+D1054,Duplicate monthly subscription charge.,1,0,0,0,1,DUPLICATE_CHARGE
+D1055,Beneficiary did not receive the money but my account was debited.,0,1,0,1,0,FAILED_TRANSACTION
+D1057,Fraudulent charge on my card. Please block it immediately.,0,0,1,0,0,FRAUD
+D1059,Got two SMS alerts for a single UPI transaction.,1,0,0,0,1,DUPLICATE_CHARGE
+D1060,My payment failed but the money hasnt come back.,0,1,0,1,0,FAILED_TRANSACTION
+D1491,This is not my transaction. Please block my card immediately.,0,0,1,0,0,FRAUD
+D1492,My EMI was deducted two times this month. This is incorrect.,1,0,0,0,1,DUPLICATE_CHARGE
+D1495,The refund for my returned product is taking too long.,0,0,0,1,0,REFUND_PENDING
+D1496,I see a charge from a company I've never heard of. This is unauthorized.,0,0,1,0,0,FRAUD
+D1497,I was charged twice for a single ride on Ola.,1,0,0,0,1,DUPLICATE_CHARGE
+D1498,My IRCTC payment failed but the ticket amount was debited. I want my money back.,0,1,0,1,0,FAILED_TRANSACTION
+D1499,I cancelled my subscription but the refund has not appeared in my account yet.,0,0,0,1,0,REFUND_PENDING
+D1500,Got a dublicate charge for my grocery shopping. (typo included),1,0,0,0,1,DUPLICATE_CHARGE

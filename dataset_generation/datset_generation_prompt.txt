@@ -1,0 +1,21 @@
+"You are a financial data generation expert. Your task is to create a synthetic dataset of 800 customer payment disputes in CSV format.
+
+The dataset must have the following columns:
+    dispute_id: A unique identifier string starting with 'D' (e.g., D1001, D1002).
+    description: A realistic, customer-written description of the dispute. Include common variations in phrasing, some typos, and different levels of detail. The description's content must logically align with the true_category.
+    is_verified_duplicate: A binary flag (1 or 0). Set to 1 only if the dispute is a clear duplicate charge case and there is supporting evidence (e.g., a second transaction happened within minutes for the same amount). Otherwise, set to 0. This should have a strong correlation with the DUPLICATE_CHARGE category.
+    is_verified_failed: A binary flag (1 or 0). Set to 1 if the transaction status was 'FAILED' but the customer claims they were debited. This should strongly correlate with the FAILED_TRANSACTION category.
+    contains_fraud_keyword: A binary flag (1 or 0). Set to 1 if the description contains words like "fraud," "unauthorized," "suspicious," "didn't make this payment," "not me."
+    contains_refund_keyword: A binary flag (1 or 0). Set to 1 if the description contains words like "refund," "waiting for money," "canceled order," "not received."
+    contains_duplicate_keyword: A binary flag (1 or 0). Set to 1 if the description contains words like "twice," "double charge," "duplicate payment," "charged again."
+    true_category: The ground truth classification for the dispute.
+
+Distribute the categories as follows:
+    DUPLICATE_CHARGE: 25%
+    FAILED_TRANSACTION: 30%
+    FRAUD: 15%
+    REFUND_PENDING: 20%
+    OTHERS: 10% (for ambiguous cases like "payment issue," "transaction problem," etc.)
+
+Ensure the feature-engineered columns (is_verified_duplicate, is_verified_failed, etc.) are logically consistent with the description and the true_category. For example, a dispute with true_category = FRAUD should have contains_fraud_keyword = 1 and a corresponding description. A DUPLICATE_CHARGE should almost always have is_verified_duplicate = 1.
+be sure to generate the complete dataset with all 800 rows. donot output a small dataset. 

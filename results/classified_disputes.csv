@@ -1,0 +1,21 @@
+dispute_id,predicted_category,confidence,explanation,contains_fraud_keyword,contains_refund_keyword,is_verified_duplicate,is_verified_failed
+D001,DUPLICATE_CHARGE,0.9775765329876154,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the keyword 'charg'.",0,0,1,0
+D002,FAILED_TRANSACTION,0.9700865890131132,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the keyword 'money'.",0,1,0,1
+D003,FAILED_TRANSACTION,0.9899203250455714,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the keyword 'money'.",0,1,0,1
+D004,FRAUD,0.9611523219515857,"Prediction primarily based on: the rule 'contains fraud keyword' was triggered, the keyword 'fraud', the keyword 'make'.",1,0,0,0
+D005,REFUND_PENDING,0.5194875890152277,"Prediction primarily based on: the rule 'contains refund keyword' was triggered, the keyword 'refund', the keyword 'cancel'.",0,1,0,1
+D006,DUPLICATE_CHARGE,0.9878252134119268,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the keyword 'charg'.",0,0,1,0
+D007,FAILED_TRANSACTION,0.9728128350564069,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the keyword 'account'.",0,1,0,1
+D008,OTHERS,0.9143801645878684,"Prediction primarily based on: the keyword 'beneficiari', the keyword 'wrong', the keyword 'per'.",0,0,0,0
+D009,OTHERS,0.8835911998250121,"Prediction primarily based on: the keyword 'txn', the keyword 'chargeback', the keyword 'card'.",0,0,0,0
+D010,FAILED_TRANSACTION,0.8965037272328816,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the rule 'contains refund keyword' was triggered.",0,1,0,1
+D011,DUPLICATE_CHARGE,0.959458689289113,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the rule 'contains refund keyword' was triggered.",0,1,1,0
+D012,OTHERS,0.957561579982173,"Prediction primarily based on: the keyword 'sure', the keyword 'pend', the keyword 'merchant'.",0,0,0,0
+D013,DUPLICATE_CHARGE,0.9193597290392549,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the keyword 'month'.",0,0,1,0
+D014,OTHERS,0.8965690530711135,"Prediction primarily based on: the keyword 'beneficiari', the keyword 'process', the keyword 'say'.",0,0,0,0
+D015,FAILED_TRANSACTION,0.9808192552904197,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the rule 'contains refund keyword' was triggered.",0,1,0,1
+D016,FRAUD,0.9544994533430647,"Prediction primarily based on: the rule 'contains fraud keyword' was triggered, the keyword 'author', the keyword 'transact'.",1,0,0,0
+D017,REFUND_PENDING,0.9630419274178826,"Prediction primarily based on: the rule 'contains refund keyword' was triggered, the keyword 'refund', the keyword 'cancel'.",0,1,0,0
+D018,DUPLICATE_CHARGE,0.9876816458806127,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the keyword 'duplic'.",0,0,1,0
+D019,FAILED_TRANSACTION,0.9931495018251418,"Prediction primarily based on: the rule 'is verified failed' was triggered, the keyword 'fail', the keyword 'yet'.",0,0,0,1
+D020,DUPLICATE_CHARGE,0.981416329624995,"Prediction primarily based on: the rule 'contains duplicate keyword' was triggered, the rule 'is verified duplicate' was triggered, the keyword 'charg'.",0,0,1,0

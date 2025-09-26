@@ -1,25 +1,28 @@
 import pandas as pd
 
 # --- 1. Load Data ---
-try:
-    classified_df = pd.read_csv('results/classified_disputes.csv')
-    disputes_df = pd.read_csv('dataset/disputes.csv')
-    print("All necessary data files loaded successfully.")
-except FileNotFoundError as e:
-    print(f"Error: {e}. Please make sure 'classified_disputes.csv' and 'disputes.csv' are present.")
-    exit()
+def load_data():
+    try:
+        classified_df = pd.read_csv('results/classified_disputes.csv')
+        disputes_df = pd.read_csv('dataset/disputes.csv')
+        print("All necessary data files loaded successfully.")
+    except FileNotFoundError as e:
+        print(f"Error: {e}. Please make sure 'classified_disputes.csv' and 'disputes.csv' are present.")
+        exit()
 
-# --- 2. Merge Data Sources ---
-# Combine the two dataframes on 'dispute_id' to get all necessary columns in one place.
-# We only need 'txn_type' and 'amount' from the original disputes file.
-merged_df = pd.merge(
-    classified_df,
-    disputes_df[['dispute_id', 'txn_type', 'amount']],
-    on='dispute_id',
-    how='left'
-)
-print("Data merged successfully. Shape of merged data:", merged_df.shape)
-
+    # --- 2. Merge Data Sources ---
+    # Combine the two dataframes on 'dispute_id' to get all necessary columns in one place.
+    # We only need 'txn_type' and 'amount' from the original disputes file.
+    merged_df = pd.merge(
+        classified_df,
+        disputes_df[['dispute_id', 'txn_type', 'amount' ,'created_at']],
+        on='dispute_id',
+        how='left'
+    )
+    print("Data merged successfully. Shape of merged data:", merged_df.shape)
+    print(merged_df.columns.to_list())
+    print(merged_df.head())
+    return merged_df
 
 # --- 3. The Rule-Based Decision Engine ---
 
@@ -69,17 +72,22 @@ def suggest_resolution(row):
 
 # Apply the function to each row of the DataFrame.
 # The result of the apply function is a list of tuples, which we can split into two new columns.
-print("Applying resolution suggestion engine...")
-resolutions = merged_df.apply(suggest_resolution, axis=1, result_type='expand')
-merged_df['suggested_action'] = resolutions[0]
-merged_df['justification'] = resolutions[1]
-print("Resolution suggestions generated.")
+def main():
+    merged_df = load_data()
+    print("Applying resolution suggestion engine...")
+    resolutions = merged_df.apply(suggest_resolution, axis=1, result_type='expand')
+    merged_df['suggested_action'] = resolutions[0]
+    merged_df['justification'] = resolutions[1]
+    # Add a 'status' column (in a real app, this would be managed)
+    merged_df['status'] = 'unresolved'
+    print("Resolution suggestions generated.")
 
-# Prepare the final output DataFrame as per Task 2 requirements
-output_df = merged_df[['dispute_id', 'suggested_action', 'justification']]
+    # Prepare the final output DataFrame as per Task 2 requirements
+    output_df = merged_df[['dispute_id', 'suggested_action', 'justification']]
+        
+    # Save the results to a new CSV file
+    output_df.to_csv('results/resolutions.csv', index=False , mode= "w")
+    merged_df.to_csv('results/combined.csv' , index = False , mode = "w")
 
-# Save the results to a new CSV file
-output_df.to_csv('results/resolutions.csv', index=False , mode= "w")
-
-print("\nTask 2 complete. Results saved to 'resolutions.csv'")
-print(output_df.head())
+    print("\nTask 2 complete. Results saved to 'resolutions.csv'")
+    print(output_df.head())

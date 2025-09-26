@@ -1,0 +1,7 @@
+2025-09-26 12:39:22,492 - INFO - Dispute and transaction data loaded.
+2025-09-26 12:39:22,514 - INFO - Performing feature engineering using transaction data...
+2025-09-26 12:39:22,570 - INFO - Feature engineering complete.
+2025-09-26 12:39:22,690 - INFO - 
+Inference complete. Results saved to 'classified_disputes.csv'
+2025-09-26 12:39:41,592 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 12:39:42,812 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,4 +1,3 @@
-from json import load
 import pandas as pd
 import sqlite3
 from datetime import datetime
@@ -23,26 +22,19 @@ except Exception as e:
 
 def create_unified_database():
     """
-    Loads data from CSVs, combines them, adds necessary columns,
+    Loads data from combined CSV,
     and loads everything into an in-memory SQLite database.
     """
     try:
-        disputes_df = pd.read_csv('dataset/disputes.csv')
-        classified_df = pd.read_csv('results/classified_disputes.csv')
-        resolutions_df = pd.read_csv('results/resolutions.csv')
+        # Load the combined data file
+        main_df = pd.read_csv('results/combined.csv')
     except FileNotFoundError as e:
-        print(f"Error loading data files: {e}. Make sure all required CSVs are present.")
+        print(f"Error: {e}. Please ensure 'combined.csv' is in the 'results' directory.")
         return None, None
 
-    # Merge all data into a single DataFrame
-    main_df = pd.merge(disputes_df, classified_df, on='dispute_id')
-    main_df = pd.merge(main_df, resolutions_df, on='dispute_id')
-
-    # Add a 'status' column (in a real app, this would be managed)
-    main_df['status'] = 'unresolved'
     # For date queries, ensure 'created_at' is in a queryable format
     main_df['created_at'] = pd.to_datetime(main_df['created_at']).dt.strftime('%Y-%m-%d %H:%M:%S')
-
+    
     # Create an in-memory SQLite database
     conn = sqlite3.connect(':memory:')
     # Load the DataFrame into the database
@@ -130,8 +122,8 @@ def get_answer_from_llm(user_query, query_result_df):
         return f"Error generating final answer: {e}"
 
 # --- 4. Main CLI Loop ---
+def main():
 
-if __name__ == "__main__":
     conn, schema = create_unified_database()
 
     if conn and schema:

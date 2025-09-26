@@ -6,27 +6,35 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import joblib
 from datetime import timedelta
+import logging
 
 print("import completed")
 
 # --- 1. Load Saved Models and Preprocessing Objects ---
+def load_models():
+    """
+    Loads the trained model and associated artifacts from disk.
+    """
 
-try:
-    model = joblib.load('model/dispute_classifier_model.pkl')
-    tfidf_vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
-    label_encoder = joblib.load('model/label_encoder.pkl')
-    engineered_feature_names = joblib.load('model/engineered_features.pkl')
-    print("Models and artifacts loaded successfully.")
-except FileNotFoundError:
-    print("Error: Model files not found. Please run the training script first.")
-    exit()
+    try:
+        model = joblib.load('model/dispute_classifier_model.pkl')
+        tfidf_vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
+        label_encoder = joblib.load('model/label_encoder.pkl')
+        engineered_feature_names = joblib.load('model/engineered_features.pkl')
+        print("Models and artifacts loaded successfully.")
+        return model, tfidf_vectorizer, label_encoder, engineered_feature_names
+    except FileNotFoundError:
+        print("Error: Model files not found. Please run the training script first.")
+        exit()
 
-# Set up the same preprocessing functions as in training
-stemmer = PorterStemmer()
-stop_words = set(stopwords.words('english'))
+
+
 
 def preprocess_text(text):
     """Cleans and prepares text data for vectorization."""
+    # Set up the same preprocessing functions as in training
+    stemmer = PorterStemmer()
+    stop_words = set(stopwords.words('english'))
     text = re.sub(r'\W', ' ', str(text))
     text = re.sub(r'\s+', ' ', text, flags=re.I)
     text = text.lower()
@@ -85,7 +93,7 @@ def perform_feature_engineering(disputes_df, transactions_df):
 
 # --- 3. Inference and Explanation Generation ---
 
-def generate_explanation(row, predicted_class, feature_names, top_n=3):
+def generate_explanation(row, predicted_class, feature_names, model, tfidf_vectorizer, label_encoder, engineered_feature_names ,top_n=3 ):
     """Generates a human-readable explanation for a prediction."""
     class_index = list(label_encoder.classes_).index(predicted_class)
 
@@ -119,59 +127,66 @@ def generate_explanation(row, predicted_class, feature_names, top_n=3):
     return f"Prediction primarily based on: {', '.join(explanation_parts)}."
 
 # --- 4. Main Execution Block ---
+def main():
+    model, tfidf_vectorizer, label_encoder, engineered_feature_names = load_models()
+    logging.basicConfig(level=logging.INFO,filename='dispute_classification.log', filemode='a',
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+    # Load the unclassified disputes and the full transactions history
+    try:
+        # Use the 'disputes.csv' file as the input for unclassified data
+        new_disputes_df = pd.read_csv('dataset/disputes.csv')
+        transactions_df = pd.read_csv('dataset/transactions.csv')
+        logging.info("Dispute and transaction data loaded.")
+        # print("Dispute and transaction data loaded.")
+    except FileNotFoundError as e:
+        logging.error(f"Error loading data files: {e}")
+        # print(f"Error: {e}. Please ensure 'disputes.csv' and 'transactions.csv' are in the same directory.")
+        exit()
 
-# Load the unclassified disputes and the full transactions history
-try:
-    # Use the 'disputes.csv' file as the input for unclassified data
-    new_disputes_df = pd.read_csv('dataset/disputes.csv')
-    transactions_df = pd.read_csv('dataset/transactions.csv')
-    print("Dispute and transaction data loaded.")
-except FileNotFoundError as e:
-    print(f"Error: {e}. Please ensure 'disputes.csv' and 'transactions.csv' are in the same directory.")
-    exit()
+    # Apply text preprocessing
+    new_disputes_df['processed_description'] = new_disputes_df['description'].apply(preprocess_text)
 
-# Apply text preprocessing
-new_disputes_df['processed_description'] = new_disputes_df['description'].apply(preprocess_text)
+    # Apply the new, data-driven feature engineering
+    logging.info("Performing feature engineering using transaction data...")
+    print("Performing feature engineering using transaction data...")
+    featured_disputes_df = perform_feature_engineering(new_disputes_df, transactions_df)
+    
+    logging.info("Feature engineering complete.")
 
-# Apply the new, data-driven feature engineering
-print("Performing feature engineering using transaction data...")
-featured_disputes_df = perform_feature_engineering(new_disputes_df, transactions_df)
-print("Feature engineering complete.")
+    # Vectorize the text data
+    X_new_tfidf = tfidf_vectorizer.transform(featured_disputes_df['processed_description'])
 
-# Vectorize the text data
-X_new_tfidf = tfidf_vectorizer.transform(featured_disputes_df['processed_description'])
+    # Combine with engineered features
+    X_new_engineered = featured_disputes_df[engineered_feature_names]
+    X_new_combined = pd.concat([pd.DataFrame(X_new_tfidf.toarray()), X_new_engineered.reset_index(drop=True)], axis=1)
+    X_new_combined.columns = X_new_combined.columns.astype(str)
 
-# Combine with engineered features
-X_new_engineered = featured_disputes_df[engineered_feature_names]
-X_new_combined = pd.concat([pd.DataFrame(X_new_tfidf.toarray()), X_new_engineered.reset_index(drop=True)], axis=1)
-X_new_combined.columns = X_new_combined.columns.astype(str)
+    # Make predictions
+    predictions_encoded = model.predict(X_new_combined)
+    probabilities = model.predict_proba(X_new_combined)
 
-# Make predictions
-predictions_encoded = model.predict(X_new_combined)
-probabilities = model.predict_proba(X_new_combined)
+    # Decode predictions back to original labels
+    predicted_categories = label_encoder.inverse_transform(predictions_encoded)
+    confidence_scores = probabilities.max(axis=1)
 
-# Decode predictions back to original labels
-predicted_categories = label_encoder.inverse_transform(predictions_encoded)
-confidence_scores = probabilities.max(axis=1)
+    # Generate explanations
+    explanations = [generate_explanation(X_new_combined.iloc[i].values, predicted_categories[i], X_new_combined.columns,model, tfidf_vectorizer, label_encoder, engineered_feature_names) for i in range(len(X_new_combined))]
 
-# Generate explanations
-explanations = [generate_explanation(X_new_combined.iloc[i].values, predicted_categories[i], X_new_combined.columns) for i in range(len(X_new_combined))]
+    # Create the final output DataFrame
+    output_df = pd.DataFrame({
+        'dispute_id': featured_disputes_df['dispute_id'],
+        'predicted_category': predicted_categories,
+        'confidence': confidence_scores,
+        'explanation': explanations,
+        'contains_fraud_keyword': featured_disputes_df['contains_fraud_keyword'],
+        "contains_refund_keyword": featured_disputes_df['contains_refund_keyword'],
+        'is_verified_duplicate': featured_disputes_df['is_verified_duplicate'],
+        'is_verified_failed': featured_disputes_df['is_verified_failed'],
+    })
 
-# Create the final output DataFrame
-output_df = pd.DataFrame({
-    'dispute_id': featured_disputes_df['dispute_id'],
-    'predicted_category': predicted_categories,
-    'confidence': confidence_scores,
-    'explanation': explanations,
-    'contains_fraud_keyword': featured_disputes_df['contains_fraud_keyword'],
-    "contains_refund_keyword": featured_disputes_df['contains_refund_keyword'],
-    'is_verified_duplicate': featured_disputes_df['is_verified_duplicate'],
-    'is_verified_failed': featured_disputes_df['is_verified_failed'],
-})
+    # Save the results to a CSV file
+    output_df.to_csv('results/classified_disputes.csv', index=False , mode = "w")
 
-# Save the results to a CSV file
-output_df.to_csv('results/classified_disputes.csv', index=False , mode = "w")
-
-print("\nInference complete. Results saved to 'classified_disputes.csv'")
-print(output_df)
+    logging.info("\nInference complete. Results saved to 'classified_disputes.csv'")
+    print(output_df)
 

@@ -1,0 +1,8 @@
+streamlit
+pandas
+nltk
+joblib
+python-dotenv
+openai
+sqlite3
+```

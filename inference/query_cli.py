@@ -1,20 +1,21 @@
+from json import load
 import pandas as pd
 import sqlite3
 from datetime import datetime
 import os
-import google.generativeai as genai
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 # --- 0. Configure API Key ---
 # IMPORTANT: Set your API key as an environment variable before running.
-# For Google Gemini: GOOGLE_API_KEY
 # For OpenAI: OPENAI_API_KEY
 try:
-    # Using Gemini as the example LLM
-    genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-    llm = genai.GenerativeModel('gemini-pro')
-    print("Google Gemini API configured successfully.")
-except Exception:
-    print("Error: API key not configured. Please set the GOOGLE_API_KEY environment variable.")
+    # Using OpenAI GPT
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    print("OpenAI API configured successfully.")
+except Exception as e:
+    print(f"Error: API key not configured. Please set the OPENAI_API_KEY environment variable. {e}")
     exit()
 
 
@@ -31,7 +32,7 @@ def create_unified_database():
         resolutions_df = pd.read_csv('results/resolutions.csv')
     except FileNotFoundError as e:
         print(f"Error loading data files: {e}. Make sure all required CSVs are present.")
-        return None
+        return None, None
 
     # Merge all data into a single DataFrame
     main_df = pd.merge(disputes_df, classified_df, on='dispute_id')
@@ -68,9 +69,9 @@ def get_sql_from_llm(user_query, schema):
     Columns: {', '.join(schema)}
 
     Instructions:
-    - The `predicted_category` column contains values  'DUPLICATE_CHARGE', 'FRAUD', 'FAILED_TRANSACTION' , 'REFUND_PENDING' and 'OTHERS'.
+    - The `predicted_category` column contains values 'DUPLICATE_CHARGE', 'FRAUD', 'FAILED_TRANSACTION', 'REFUND_PENDING' and 'OTHERS'.
     - The `status` column contains values 'resolved' or 'unresolved'.
-    - The `suggested_action` column contains values 'Auto-refund' , 'Manual review' , 'Escalate to bank' , 'Mark as potential fraud' , 'Ask for more info'
+    - The `suggested_action` column contains values 'Auto-refund', 'Manual review', 'Escalate to bank', 'Mark as potential fraud', 'Ask for more info'
     - For any questions involving "today", use the date '{today_date}'.
     - The `created_at` column is in 'YYYY-MM-DD HH:MM:SS' format.
     - Only output the SQL query, with no explanation or other text.
@@ -80,8 +81,18 @@ def get_sql_from_llm(user_query, schema):
     SQL Query:
     """
     try:
-        response = llm.generate_content(prompt)
-        sql_query = response.text.strip().replace("```sql", "").replace("```", "")
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",  # You can also use "gpt-4" for better results
+            messages=[
+                {"role": "system", "content": "You are an expert SQL query writer. Only respond with the SQL query, no explanations."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.1,
+            max_tokens=500
+        )
+        content = response.choices[0].message.content
+        print("generated content:",content)
+        sql_query = content.strip().replace("```sql", "").replace("```", "")
         return sql_query
     except Exception as e:
         return f"Error generating SQL: {e}"
@@ -105,8 +116,16 @@ def get_answer_from_llm(user_query, query_result_df):
     Your Friendly Answer:
     """
     try:
-        response = llm.generate_content(prompt)
-        return response.text.strip()
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",  # You can also use "gpt-4" for better results
+            messages=[
+                {"role": "system", "content": "You are a friendly AI assistant for a dispute resolution team. Provide concise, helpful answers based on the data provided."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_tokens=300
+        )
+        return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Error generating final answer: {e}"
 
@@ -115,7 +134,7 @@ def get_answer_from_llm(user_query, query_result_df):
 if __name__ == "__main__":
     conn, schema = create_unified_database()
 
-    if conn:
+    if conn and schema:
         print("\n--- AI Dispute Assistant ---")
         print("Ask questions about your dispute data. Type 'exit' to quit.")
 
@@ -148,3 +167,5 @@ if __name__ == "__main__":
 
         conn.close()
         print("\nSession ended. Goodbye!")
+    else:
+        print("Failed to initialize the database. Please check your CSV files.")
